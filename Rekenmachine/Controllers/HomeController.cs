@@ -68,7 +68,7 @@ namespace Rekenmachine.Controllers
         public IActionResult Boete(int snelheid)
         {
             string resultaat = "";
-            int boete = 50;
+            int boete = 125;
 
             if (snelheid > 50)
             {
